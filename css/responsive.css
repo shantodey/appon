@@ -1,0 +1,353 @@
+@media (min-width: 320px) and ( max-width: 575.98px){
+    body{
+        overflow-x: hidden;
+    }
+    .menu_bg{
+        background-color: rgba(21, 13, 13, 0.753);
+        backdrop-filter: blur(10px);
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .menu_bg ul li:hover .nv_a::after{
+        opacity: 1;
+        width: 70%;
+    }
+    /* home part */
+    .ban_btm {
+        text-align: center;
+    }
+    .header_tite {
+        font-size: 50pt;
+    }
+    .ban_btm h3 {
+        font-size: 20pt;
+        font-weight: 400;
+    }
+    .ban_btm::after {
+        width: 60%;
+       left: 50%;
+        top: 40%;
+       transform: translateX(-50%);
+    }
+    .ban_btm p {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .ban_button{
+        display: flex;
+        justify-content: center;
+    }
+    .ban_btm a {
+        padding: 5px 10px 10px 40px;
+        margin: 10px;
+    }
+    .ban_button a h5 {
+        font-size: 10pt;
+    }
+    .ban_button a h4 {
+        font-size: 10pt;
+    }
+    .ban_button a i {
+        font-size: 35px;
+    }
+    .bannn .slick-dots {
+        position: absolute;
+        top: 86%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+    }
+
+    /* about */
+
+    #about_us {
+        padding-top: 0px;
+    }
+    .about_main p {
+        font-size: 10pt;
+    }
+    .about_main h4 {
+        font-size: 9pt;
+        margin-top: -38px;
+    }
+    .about_img img{
+        width: 98%;
+    }
+    /* screenshots*/
+    .screenshots_img .slick-dots {
+        bottom: -15%;
+        left: 50%;
+        transform: translate(-50%,-15%);
+    }
+    /* features */
+    #features{
+        margin-top: 0;
+    }
+    .features-text{
+        text-align: center;
+    }
+   
+    
+    /* after befour of seciton header degin */
+    .touch_icon::before,
+    .about_rocker::before,
+    .features_rocker::before,
+    .screenshots_rocker::before,
+    .video_icon::before ,
+    .plan_icon::before ,
+    .team_ico::before,
+    .team-icon::before,
+    .touch_icon::before {
+        right: 25%;
+    }
+    .touch_icon::after,
+    .about_rocker::after,
+    .features_rocker::after,
+    .screenshots_rocker::after,
+    .video_icon::after ,
+    .team_ico::after,
+    .team-icon::after,
+    .plan_icon::after,
+    .touch_icon::after  {
+        right: 25%;
+    }
+    .about_rocker_a::before,
+    .features_rocker_a::before,
+    .screenshots_rocker_a::before,
+    .team_icon_a::before,
+    .team-icon-a::before ,
+    .plan_icon_a::before,
+    .video_icon_a::before,
+    .touch_icon_a::before {
+        left: 30%;
+    }
+    .about_rocker_a::after ,
+    .features_rocker_a::after,
+    .screenshots_rocker_a::after,
+    .team_icon_a::after,
+    .team-icon-a::after,
+    .plan_icon_a::after,
+    .video_icon_a::after,
+    .touch_icon_a::after  {
+        left: 30%;
+    }
+
+    
+}
+
+
+
+
+@media (min-width: 576px) and ( max-width: 767.98px){
+    body{
+        overflow-x: hidden;
+    }
+    .menu_bg{
+        background-color: rgba(21, 13, 13, 0.753);
+        backdrop-filter: blur(10px);
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .menu_bg ul li:hover .nv_a::after{
+        opacity: 1;
+        width: 70%;
+    }
+    /* home part */
+    .ban_btm {
+        text-align: center;
+    }
+    .header_tite {
+        font-size: 80pt;
+    }
+    .ban_btm h3 {
+        font-size: 30pt;
+        font-weight: 400;
+    }
+
+    .ban_btm::after {
+        width: 60%;
+       left: 50%;
+        top: 45%;
+       transform: translateX(-50%);
+    }
+    .ban_btm p {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .ban_button{
+        display: flex;
+        justify-content: center;
+    }
+    .ban_btm a {
+        padding: 5px 10px 10px 70px;
+        margin: 10px;
+    }
+    .ban_button a h5 {
+        font-size: 15pt;
+    }
+    .ban_button a h4 {
+        font-size: 16pt;
+    }
+    .ban_button a i {
+        font-size: 40px;
+    }
+    .bannn .slick-dots {
+        position: absolute;
+       top: 86%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+    }
+
+    /* about */
+
+    #about_us {
+        padding-top: 0px;
+    }
+    .about_main p {
+        font-size: 10pt;
+    }
+    .about_main h4 {
+        font-size: 9pt;
+        margin-top: -38px;
+    }
+    .about_img img{
+        width: 98%;
+    }
+
+    /* features */
+    #features{
+        margin-top: 0;
+    }
+    .features-text{
+        text-align: center;
+    }
+   
+    
+    /* after befour of seciton header degin */
+    .touch_icon::before,
+    .about_rocker::before,
+    .features_rocker::before,
+    .screenshots_rocker::before,
+    .video_icon::before ,
+    .plan_icon::before ,
+    .team_ico::before,
+    .team-icon::before {
+        right: 33%;
+    }
+    .touch_icon::after,
+    .about_rocker::after,
+    .features_rocker::after,
+    .screenshots_rocker::after,
+    .video_icon::after ,
+    .team_ico::after,
+    .team-icon::after,
+    .plan_icon::after  {
+        right: 33%;
+    }
+    .about_rocker_a::before,
+    .features_rocker_a::before,
+    .screenshots_rocker_a::before,
+    .team_icon_a::before,
+    .team-icon-a::before ,
+    .plan_icon_a::before,
+    .video_icon_a::before {
+        left: 36%;
+    }
+    .about_rocker_a::after ,
+    .features_rocker_a::after,
+    .screenshots_rocker_a::after,
+    .team_icon_a::after,
+    .team-icon-a::after,
+    .plan_icon_a::after,
+    .video_icon_a::after  {
+        left: 36%;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and ( max-width: 991.98px){
+    .menu_bg{
+        background-color: rgba(21, 13, 13, 0.753);
+        backdrop-filter: blur(10px);
+    }
+    .menu_bg ul li .nv_a::after {
+        left: 0%;
+    }
+    .menu_bg ul li:hover .nv_a::after{
+        opacity: 1;
+        width: 70%;
+    }
+    /* home */
+    .ban_btm::after {
+        top: 45%;
+    }
+    .ban_btm p {
+        padding-top: 40px;
+    }
+    /* .bannn .slick-dots {
+        display: flex;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    } */
+    /* about */
+    .about_img img{
+        width: 100%;
+    }
+
+    
+    /* after befour of seciton header degin */
+    .touch_icon::before,
+    .about_rocker::before,
+    .features_rocker::before,
+    .screenshots_rocker::before,
+    .video_icon::before ,
+    .plan_icon::before ,
+    .team_ico::before,
+    .team-icon::before {
+        right: 37%;
+    }
+    .touch_icon::after,
+    .about_rocker::after,
+    .features_rocker::after,
+    .screenshots_rocker::after,
+    .video_icon::after ,
+    .team_ico::after,
+    .team-icon::after,
+    .plan_icon::after  {
+        right: 37%;
+    }
+    .about_rocker_a::before,
+    .features_rocker_a::before,
+    .screenshots_rocker_a::before,
+    .team_icon_a::before,
+    .team-icon-a::before ,
+    .plan_icon_a::before,
+    .video_icon_a::before {
+        left: 40%;
+    }
+    .about_rocker_a::after ,
+    .features_rocker_a::after,
+    .screenshots_rocker_a::after,
+    .team_icon_a::after,
+    .team-icon-a::after,
+    .plan_icon_a::after,
+    .video_icon_a::after  {
+        left: 40%;
+    }
+}
