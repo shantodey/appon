@@ -476,11 +476,11 @@ body{
 
 
 #screenshot .screenshots_img .slick-dots{
-    position: absolute;
+  position: absolute;
   bottom: -15%;
   left: 50%;
   padding-left: 0;
-  /* transform:translateX(-9%) ; */
+  transform:translateX(-50%) ;
  
 }
 .screenshots_img .slick-dots li{
