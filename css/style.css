@@ -36,6 +36,7 @@ img{
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  z-index: 33;
 }
 
 #back-to-top-btn:hover {
