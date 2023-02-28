@@ -1033,7 +1033,6 @@ body{
     border-radius: 5px;
     rotate: 45deg;
     background-color: #f1f1f1;
-
 }
 
 .slick-slide .uss_text  img{
@@ -1057,25 +1056,10 @@ body{
     background-color: rgba(199, 194, 194, 0.67);
    
 }
-/* .uss_main_img_overlay::after{
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 0;
-   height: 100px;
-   width: 100px;
-   border: 2px solid #744fa0;
-   border-radius: 50%;
-    transform: translateX(-50%);
-    
-   
-} */
 .uss_main .slick-center .uss_main_img_overlay{
         opacity: 0;
 }
-/* .uss_main .slick-center .uss_main_img_overlay::after{
-        opacity: 1;
-} */
+
 .uss_main .slick-center .uss_main_img img{
        transform: scale(1.2);
        border: 2px solid #744fa0;
