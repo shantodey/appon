@@ -51,7 +51,7 @@
     .ban_button a i {
         font-size: 35px;
     }
-    .bannn .slick-dots {
+    #ban .bannn .slick-dots {
         position: absolute;
         top: 86%;
         left: 50%;
@@ -79,6 +79,9 @@
         bottom: -15%;
         left: 50%;
         transform: translate(-50%,-15%);
+    }
+    #screenshot .screenshots_img .slick-dots {
+        display: none !important;
     }
     /* features */
     #features{
@@ -112,6 +115,7 @@
     .touch_icon::after  {
         right: 25%;
     }
+    .touch_icon_a::before,
     .about_rocker_a::before,
     .features_rocker_a::before,
     .screenshots_rocker_a::before,
@@ -122,6 +126,7 @@
     .touch_icon_a::before {
         left: 30%;
     }
+    .touch_icon_a::after,
     .about_rocker_a::after ,
     .features_rocker_a::after,
     .screenshots_rocker_a::after,
@@ -194,7 +199,7 @@
     .ban_button a i {
         font-size: 40px;
     }
-    .bannn .slick-dots {
+    #ban .bannn .slick-dots {
         position: absolute;
        top: 86%;
         left: 50%;
@@ -216,6 +221,10 @@
     }
     .about_img img{
         width: 98%;
+    }
+    /* screenshot */
+    #screenshot .screenshots_img .slick-dots {
+        display: none !important;
     }
 
     /* features */
@@ -248,6 +257,7 @@
     .plan_icon::after  {
         right: 33%;
     }
+    .touch_icon_a::before,
     .about_rocker_a::before,
     .features_rocker_a::before,
     .screenshots_rocker_a::before,
@@ -257,6 +267,7 @@
     .video_icon_a::before {
         left: 36%;
     }
+    .touch_icon_a::after,
     .about_rocker_a::after ,
     .features_rocker_a::after,
     .screenshots_rocker_a::after,
@@ -297,19 +308,21 @@
     .ban_btm p {
         padding-top: 40px;
     }
-    /* .bannn .slick-dots {
-        display: flex;
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+    #ban .bannn .slick-dots {
+       display:  revert;
         
-    } */
+    }
     /* about */
     .about_img img{
         width: 100%;
     }
-
+      /* screenshot */
+      #screenshot .screenshots_img .slick-dots {
+        display: none;
+    }
+      #screenshot .screenshots_img .slick-dots {
+        display: none !important;
+    }
     
     /* after befour of seciton header degin */
     .touch_icon::before,
@@ -332,6 +345,7 @@
     .plan_icon::after  {
         right: 37%;
     }
+    .touch_icon_a::before,
     .about_rocker_a::before,
     .features_rocker_a::before,
     .screenshots_rocker_a::before,
@@ -341,6 +355,7 @@
     .video_icon_a::before {
         left: 40%;
     }
+    .touch_icon_a::after,
     .about_rocker_a::after ,
     .features_rocker_a::after,
     .screenshots_rocker_a::after,
