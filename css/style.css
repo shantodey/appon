@@ -16,6 +16,40 @@ img{
 }
 /* common css end */
 
+    
+/* back to top */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #F8A823;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#back-to-top-btn:hover {
+  background-color: #DC3545;
+  box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+#back-to-top-btn.show {
+  display: block;
+}
+
+   
+/* common css end */
 
 body{
     overflow-x: hidden;
