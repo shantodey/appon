@@ -96,7 +96,7 @@ body{
 
 
 
-.bannn .slick-dots{
+#ban .bannn .slick-dots{
     position: absolute;
     right: 0%;
     top: 50%;
@@ -475,12 +475,12 @@ body{
 }
 
 
-.screenshots_img .slick-dots{
+#screenshot .screenshots_img .slick-dots{
     position: absolute;
   bottom: -15%;
   left: 50%;
   padding-left: 0;
-/*   transform:translateX(-9%) ; */
+  /* transform:translateX(-9%) ; */
  
 }
 .screenshots_img .slick-dots li{
@@ -818,7 +818,9 @@ body{
     font-size: 20pt;
     transform: rotate(-90deg);
 }
+.uss_inner{
 
+}
   
 .team_img_i{
     border: 1px solid transparent;
@@ -992,22 +994,9 @@ body{
     background-color: #f1f1f1;
     padding: 10px 40px;
     border-radius: 5px;
-    position: relative;
+    /* position: relative; */
 }
 
-.uss_text::after{
-    content: '';
-    position: absolute ;
-    left: 50%;
-    transform: translate(-50%,10%);
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
-    rotate: 45deg;
-    background-color: red;
-    z-index: 5 !important;
-
-}
 
 .uss_text p{
     padding-top: 30px;
@@ -1030,7 +1019,24 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14pt;
     font-weight: 400 ;
+   
 }
+.uss_inner{
+    position: relative;
+}
+.uss_inner::after{
+    content: '';
+    position: absolute ;
+    left: 50%;
+    transform: translate(-50%,10%);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    rotate: 45deg;
+    background-color: #f1f1f1;
+
+}
+
 .slick-slide .uss_text  img{
     display: revert;
 }
@@ -1083,15 +1089,17 @@ body{
     position: relative;
 }
 
-.uss_main .slick-dots{
+#uss .uss_main .slick-dots{
     padding-left: 0;
     display: flex;
     position: absolute;
-    left: 50%;
-    transform: translate(-8%,0%);
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
    
    
 }
+
 .uss_main .slick-dots li{
     display: block;
     border: 2px solid white;
